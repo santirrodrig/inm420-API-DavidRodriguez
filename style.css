@@ -1,0 +1,97 @@
+/* Logo + Title */
+#header {
+    background-color: #061f4a;
+    display: flex;
+    justify-content: center;
+}
+
+#logo {
+height: 100px;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight:bold;
+    font-style:normal;
+    font-size: 40px;
+    justify-content: center;
+    margin-top: 30px;
+    color: white;
+}
+
+/* Select date */
+#form {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+    
+label{
+    font-family: "Montserrat", sans-serif;
+    font-weight:300;
+    justify-content: center;
+}
+
+button{
+    font-family: "Montserrat", sans-serif;
+    font-weight:300;
+    justify-content: center;
+}
+
+input{
+    font-family: "Montserrat", sans-serif;
+    font-weight:300;
+}
+
+/* Title and date */
+#title {
+    font-family: "Montserrat", sans-serif;
+    font-weight:bold;
+    font-style:normal;
+    font-size: 35px;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #0b3d91;
+}
+#date {
+    font-family: "Montserrat", sans-serif;
+    font-weight:400;
+    font-style:normal;
+    font-size: 20px;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 20px;
+    color: black;
+}
+
+/* Name of the APOD */
+#title2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight:600;
+    font-style:normal;
+    font-size: 25px;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 450px;
+    color: #323a45;
+}
+/* Media*/
+#content {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+/* Explanation text*/
+#explanation {
+    font-family: "Montserrat", sans-serif;
+    font-weight:300;
+    font-style:normal;
+    font-size: 18px;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: black;
+}

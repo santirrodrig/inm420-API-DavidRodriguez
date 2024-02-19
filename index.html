@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INM 420 REST API</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@3.0.0/reset.min.css" />
+    <!--Style CSS-->
+    <link rel="stylesheet" href="style.css" />
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <!--Logo + Title-->
+    <div id="header">
+        <img id="logo" src="images/nasalogo.png">
+        <h1>Astronomy Picture of the Day</h1>
+    </div>
+    <!--Select Date-->
+    <div id="form">
+        <label for="selectedDate">Select Date:</label>
+        <input type="date" id="selectedDate">
+        <button onclick="fetchButton">Get APOD</button>
+    </div>
+    <!--Media and Info - API-->
+    <div id="image-info">Loading...</div>
+
+    <!--js-->
+    <script src="main.js"></script>
+</body>
+
+</html>
